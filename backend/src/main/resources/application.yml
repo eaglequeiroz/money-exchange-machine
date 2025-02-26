@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: money-exchange-machine
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: money_exchange_db
+coin:
+  inventory:
+    coins:
+      1: 100
+      5: 100
+      10: 100
+      25: 100
